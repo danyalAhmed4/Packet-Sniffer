@@ -193,22 +193,3 @@ sudo python sniffer.py
 sudo setcap cap_net_raw,cap_net_admin=eip $(which python3)
 ```
 
-### No Packets Captured
-
-1. Ensure you have network activity
-2. Try without filters first
-3. Check if firewall is blocking packet capture
-4. Verify network interface is up
-5. Try specifying interface: `python sniffer.py -i eth0`
-
-## Security Notice
-
-⚠️ **Use responsibly and legally!**
-
-- Only capture traffic on networks you own or have permission to monitor
-- Capturing others' traffic without authorization may be illegal
-- This tool is intended for educational and legitimate network analysis purposes
-
-## License
-
-MIT License - Feel free to use, modify, and distribute.
